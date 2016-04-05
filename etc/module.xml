@@ -22,15 +22,14 @@
   ~ 02110-1301 USA, or see the FSF site: http://www.fsf.org.
   -->
 
-<module xmlns="urn:jboss:module:1.1" name="org.jboss.mod_cluster.core">
+<module xmlns="urn:jboss:module:1.3" name="org.jboss.mod_cluster.core">
     <properties>
         <property name="jboss.api" value="private"/>
     </properties>
 
     <resources>
-        <resource-root path="mod_cluster-custom-metric-example-1.0-SNAPSHOT.jar"/>
-        <resource-root path="mod_cluster-core-1.3.0.Alpha1.jar"/>
-        <!-- Insert resources here -->
+        <resource-root path="mod_cluster-custom-load-metric-example-1.0.0.Final-SNAPSHOT.jar"/>
+        <resource-root path="mod_cluster-core-1.3.1.Final.jar"/>
     </resources>
 
     <dependencies>
