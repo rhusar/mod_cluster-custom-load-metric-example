@@ -325,7 +325,7 @@
             <mod-cluster-config advertise-socket="modcluster" connector="ajp">
                 <dynamic-load-provider>
                     <custom-load-metric class="com.radoslavhusar.mod_cluster.RandomCustomLoadMetric">
-                       <prop    erty name="seed" value="4835723" />
+                        <property name="seed" value="4835723"/>
                     </custom-load-metric>  
                 </dynamic-load-provider>
             </mod-cluster-config>
